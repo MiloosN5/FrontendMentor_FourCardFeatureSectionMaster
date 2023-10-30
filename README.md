@@ -20,8 +20,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### The challenge
 - Responsive layout with four cards
-Users should be able to:
-- View the optimal layout for the site depending on their device's screen size
+- Users should be able to:
+	- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 <div>
@@ -111,7 +111,7 @@ Users should be able to:
 
 **React**
 - create new vite application (with React)
-    * ``` npm create vite@latest```
+    * ```npm create vite@latest```
 - install needed packages
     * ```npm install```
 - serve app on the localhost (see package.json)
