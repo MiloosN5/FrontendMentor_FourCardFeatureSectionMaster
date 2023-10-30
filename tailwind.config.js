@@ -27,14 +27,14 @@ export default {
       fontSize: {
         'h1': 'clamp(1.5625rem, 1.1rem + 1.92vw, 2.3125rem)', // [25px -> 37px] [clamp -> min[375] max[1000]]
         'h1--sub': 'clamp(1.5625rem, 1.1rem + 1.92vw, 2.3125rem)', // [25px -> 37px]
-        'h2': '1.25rem', // [20px]
+        'h4': '1.25rem', // [20px]
         'desc--1': '0.9375rem', // [15px]
         'desc--2': '0.8125rem' // [13px]
       },
       lineHeight: {
         'h1': 'clamp(2.375rem, 1.81rem + 2.4vw, 3.3125rem)', // [38px -> 53px]
         'h1--sub': 'clamp(2.375rem, 1.81rem + 2.4vw, 3.3125rem)', // [38px -> 53px]
-        'h2': '1.5625rem', // [25px]
+        'h4': '1.5625rem', // [25px]
         'desc--1': '1.5625rem', // [25px]
         'desc--2': '1.375rem' // [22px]
       },
@@ -43,7 +43,7 @@ export default {
         'h1--d': '-0.01em', // [-1%]
         'h1--sub': '-0.01em', // [-1%]
         'h1--sub--d': '-0.005em', // [-0.5%]
-        'h2': '-0.005em', // [-0.5%]
+        'h4': '-0.005em', // [-0.5%]
         'desc--1': '0.005em', // [0.5%]
         'desc--2': '0.01em', // [1%]
         'desc--2--d': '0.005em' // [0.5%]
@@ -55,8 +55,8 @@ export default {
         'body_T--s': '5.125rem', // [82px]
         'h1_B': '0.9375rem', // [15px]
         'h1_B--d': '0.8125rem', // [13px]
-        'h2_B': '0.375rem', // [6px]
-        'h2_B--d': '0.75rem', // [12px]
+        'h4_B': '0.375rem', // [6px]
+        'h4_B--d': '0.75rem', // [12px]
         'card_X': '1.75rem', // [28px]
         'card_X--d': '2rem', // [32rem]
         'card_T': '1.5rem', // [24px]

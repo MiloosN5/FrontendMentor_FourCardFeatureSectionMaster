@@ -28,10 +28,11 @@ const Card = ({ id }) => {
   
   return (
     <article className={`card ${span} ${order}`}>
+      <h3 className='sr-only'>Tool number {id+1}</h3>
       <div className='card__content'>
         <div className={`card__indicator ${bgcolor}`}></div>
         <section className='card__info'>
-          <h2 className='card__title'>{title}</h2>
+          <h4 className='card__title'>{title}</h4>
           <p className='card__description'>{desc}</p>
           <div className='mt-auto'>
             <img className="card__icon" src={iconSrc} alt={iconAlt} />

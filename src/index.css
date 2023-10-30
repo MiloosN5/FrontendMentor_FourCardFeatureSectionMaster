@@ -62,7 +62,7 @@ body {
 }
 
 .card__title {
-    @apply text-VeryDarkBlue text-h2 leading-h2 tracking-h2 font-semibold pb-h2_B /*d*/ d:pb-h2_B--d;
+    @apply text-VeryDarkBlue text-h4 leading-h4 tracking-h4 font-semibold pb-h4_B /*d*/ d:pb-h4_B--d;
 }
 
 .card__description {
