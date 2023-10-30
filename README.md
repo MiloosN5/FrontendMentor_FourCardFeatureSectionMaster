@@ -32,7 +32,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ### Links
 
 - Solution URL: [My solution URL](https://github.com/MiloosN5/FrontendMentor_FourCardFeatureSectionMaster/blob/main/README.md)
-- Live Site URL: [My live site URL](https://miloosn5.github.io/FrontendMentor_ArticlePreviewComponent_Challenge/)
+- Live Site URL: [My live site URL](https://miloosn5.github.io/FrontendMentor_FourCardFeatureSectionMaster/)
 
 
 ## My process
