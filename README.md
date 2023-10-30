@@ -111,7 +111,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 **React**
 - create new vite application (with React)
-    * ``` npm create vite@latest```
+    * ```npm create vite@latest```
 - install needed packages
     * ```npm install```
 - serve app on the localhost (see package.json)
