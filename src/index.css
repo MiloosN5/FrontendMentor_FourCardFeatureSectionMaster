@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    @apply break-words;
+}
+
+.flex--row {
+    @apply flex flex-row;
+}
+
+.flex--col {
+    @apply flex flex-col;
+}
+
+body {
+    @apply bg-VeryLightGray;
+}
+
+.main {
+    @apply flex--col max-w-2xl mx-auto gap-page items-center justify-center /*d*/ d:h-full d:max-w-none d:gap-page--d;
+}
+
+.header {
+    @apply text-center;
+}
+
+.header__subtitle {
+    @apply text-VeryDarkBlue text-h1--sub leading-h1--sub tracking-h1--sub font-extralight /*d*/ d:tracking-h1--sub--d;
+}
+
+.header__title {
+    @apply text-VeryDarkBlue text-h1 leading-h1 tracking-h1 font-semibold pb-h1_B /*d*/ d:tracking-h1--d d:pb-h1_B--d;
+}
+
+.header__description {
+    @apply text-GrayishBlue text-desc--1 leading-desc--1 tracking-desc--1 font-normal /*d*/ d:w-desc--d;
+}
+
+.cards {
+    @apply w-full max-w-cards grid gap-cards grid-cols-1 /*d*/ d:grid-cols-3 d:gap-cards--d;
+}
+
+.card {
+    @apply flex--col;
+}
+
+.card__content {
+    @apply flex--col h-auto m-auto w-full rounded-md overflow-hidden shadow-card /*s*/ s:h-card /*d*/ d:h-card--d;
+}
+
+.card__indicator {
+    @apply h-indicator;
+}
+
+.card__info {
+    @apply h-full flex--col px-card_X pt-card_T pb-card_B /*d*/ d:px-card_X--d d:pt-card_T--d d:pb-card_B--d
+}
+
+.card__title {
+    @apply text-VeryDarkBlue text-h2 leading-h2 tracking-h2 font-semibold pb-h2_B /*d*/ d:pb-h2_B--d;
+}
+
+.card__description {
+    @apply text-GrayishBlue text-desc--2 leading-desc--2 tracking-desc--2 font-normal pb-3 /*s*/ s:pb-0 /*d*/ d:tracking-desc--2--d;
+}
+
+.card__icon {
+    @apply mx-auto h-full max-w-icon max-h-icon  /*s*/ s:ms-auto s:me-0 w-full /*d*/ d:max-w-icon--d d:max-h-icon--d;
+}
